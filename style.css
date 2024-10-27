@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;    
+    
+}
+
+
+body{
+    background-color: rgba(18, 22, 26, 1);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 5px auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Cabeçalho*/
+header{
+    padding: 50px 5%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Animação imagem sobre mim*/
+.img-topo{
+    display: inline-block;
+    justify-content: center;
+    transition: .5s;
+}
+
+.img-topo :hover{
+    transform: scale(1.07);
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: rgba(0, 246, 255, 1);
+    transform: scale(1.08);
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/*Estipo parte superior do site*/
+
+section.superior-site{
+    padding: 50px 5%;
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilo Habilidades*/
+
+section.habilidades{
+    display: flex;
+    justify-content: center;
+    margin: 120px auto;
+    box-shadow: 0 0 40px 1px rgba(0, 247, 255, 0.135);
+}
+
+/*Estilo projetos*/
+section.projetos{
+    padding: 80px 4%;
+
+}
+
+.titulo{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin: -100px auto;
+}
+
+.titulo span{
+    color: rgba(0, 246, 255, 1);
+}
+
+.img-proj1 a{
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    margin: 200px ;
+    float: left;
+    transition: .3s;
+}
+
+.img-proj1 a:hover{
+    transform: scale(1.09);
+}
+
+.img-proj2 a{
+    display: flex;
+    margin: 500px auto;
+    float: left;
+    transition: .3s;
+}
+
+.img-proj2 a:hover{
+    transform: scale(1.09);
+}
+
+/*Textos do parte de projetos*/
+
+section.projetos{
+    padding: 100px 4%;
+}
+
+section.projetos .flex{
+    margin-top: -300px;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: -100px;
+}
+
+/*Footer*/
+footer {
+    width: 100%;
+
+}
+#footer_content {
+    background-color: rgba(23, 27, 31, 1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 200px;
+}
+
+
+h1 {
+    padding-left: 900px;
+    padding-top: 20px;
+    color: white;
+}
+
+#footer_midias_sociais{
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    padding-left: 830px;
+    gap: 40px; 
+}
+
+#footer_midias_sociais .footer-link{
+    color: aqua;
+}
